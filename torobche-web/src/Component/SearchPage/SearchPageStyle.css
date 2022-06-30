@@ -1,0 +1,47 @@
+.container{
+    background-color: #F2F3F5;
+    height: 1000px;
+    width: 100%;
+    Padding:0;
+    Margin:0;
+}
+
+.SearchPageBody{
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    padding: 10px;
+}
+.SearchPageBody img{
+    margin-left: 45%;
+}
+.SearchBar{
+    margin-top: 10px;
+    display: flex;
+}
+.SearchBar input{
+    height: 40px;
+    width: 400px;
+    border: hidden;
+    border-style: groove;
+    border-right: hidden;
+    font-size: 15px;
+
+}
+.SearchBar input:hover{
+
+
+}
+.SearchBar i{
+    margin-left: 3px;
+    margin-top: 10px;
+    font-size: 20px;
+    
+}
+.searchIcon{
+    border-style: groove;
+    border-left: hidden;
+    height: 42px;
+    width: 40px;
+    background: white;
+}
