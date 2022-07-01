@@ -1,7 +1,7 @@
 import './App.css';
 import SearchPage from './Component/SearchPage/SearchPage';
 import SignUpandLogin from './Component/signUpandLogin/signUpandLogin'
-import ShowProductPage from './Component/ShowProductPage/ShowProductPage'
+import ShowProductPage from './Component/MainPage/ShowProductPage'
 import {BrowserRouter} from 'react-router-dom'
 import {Route, Routes} from 'react-router-dom'
 

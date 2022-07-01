@@ -18,6 +18,8 @@
     height: 34.5px;
     width: 40px;
     padding-top: 5px;
+    border-radius: 3px 0px 0px 3px;
+
 }
 
 .signUp button{
@@ -47,6 +49,7 @@
     border-style: groove;
     border-left: hidden;
     background: #F9FAFB;
+    border-radius: 0px 3px 3px 0px;
 }
 .searchAndDdown{
     display:block;
