@@ -1,5 +1,6 @@
-import Header from '../Header/Header'
-import "./ShowProductPageStyle.css"
+import Header from '../Header/Header';
+import "./ShowProductPageStyle.css";
+import Card from '../Card/Card';
 
 
 const ShowProductPage = () =>{
@@ -23,7 +24,7 @@ const ShowProductPage = () =>{
                     <a href="">جستجو در نتایج</a>
                     <div class='searchConsept1'>
                     <i class="fa fa-search icon"></i>
-                    <input type="text" dir='rtl' placeholder="نام کالا را وارد کنید"/>
+                    <input type="text" dir='rtl'/>
                 </div>
                 
                 </li>
@@ -31,8 +32,32 @@ const ShowProductPage = () =>{
             </ul>
 
             </div>
-            <div></div>
+            <div className='showProduct'>
+            <div className='ddown2'>
+            <div class="dropdown2">
+                <button class="dropbtn2">محبوب ترین
+                 </button>
+                 <div class="dropdown-content2">
+                    <a href="#">محبوب ترین</a>
+                    <a href="#">جدیدترین</a>
+                    <a href="#">ارزان ترین</a>
+                    <a href="#">گرانترین</a>
+                </div>
+            </div>
+            </div>
+            <div class="line-2"></div>
+            <div className='showDetail'>
+            <Card></Card>
+            <Card></Card>
+            <Card></Card>
+            <Card></Card>
+            <Card></Card>
+            <Card></Card>
+            <Card></Card>
 
+            </div>
+            </div>
+            
 
         </div>
     )

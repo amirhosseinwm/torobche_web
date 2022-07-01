@@ -1,13 +1,13 @@
     .showContainer{
-        
     }
+
   ul {
     right: 0 !important;
     list-style-type: none;
     margin: 0;
     padding: 0;
     width: 25%;
-    background-color: #f1f1f1;
+    background-color: white;
     position: fixed;
     height: 100%;
     overflow: auto;
@@ -35,7 +35,12 @@
     margin-left: 20%;
     height: 2px;
   }
-
+  .line-2 {
+    height: 1px;
+    background: #B74F51;
+    margin-top: 20px;
+    height: 2px;
+  }
   .fromRange{
       margin-left: 5px;
       height: 20px;
@@ -121,4 +126,66 @@ input::-webkit-inner-spin-button {
     border-style: groove;
     border-left: hidden;
     background: #F9FAFB;
+}
+
+.showProduct{
+  background-color: #F2F3F5;
+
+}
+
+.ddown2 button{
+  font-size: 18px;
+  margin-left: 70px;
+  margin-top: 20px;
+  width: 100px;
+  background: white;
+  height: 100%;
+  border-radius: 4px;
+  cursor: pointer;
+  color: black;
+  border: 1px solid #F2F3F5;
+  height: 30px;
+  background-color: #F2F3F5;
+  
+}
+.ddown2 button:hover{
+  color: #B74F51;
+}
+.dropdown2{
+  width: 40px;
+  margin-left: 60%;
+}
+
+.dropdown2:hover .dropdown-content2 {
+  display: block;
+}
+
+.dropdown-content2 {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content2 a {
+  float: none;
+  color: #808080;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: right;
+}
+
+.dropdown-content2 a:hover {
+    color: #B74F51;
+}
+.showDetail{
+  width: 76%;
+  display: flex;
+  margin-top: 10px;
+  flex-direction: row;
+  flex-wrap: wrap; 
+  
 }
