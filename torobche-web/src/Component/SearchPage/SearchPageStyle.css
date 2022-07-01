@@ -110,7 +110,7 @@
   }
   
   .dropdown-content a:hover {
-    background-color: #ddd;
+      color: red;
   }
 
 
