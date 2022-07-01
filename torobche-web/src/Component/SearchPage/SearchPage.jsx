@@ -1,5 +1,6 @@
 import TorobLogo from '../../assets/torobLogo.png';
 import "./SearchPageStyle.css"
+import { Link } from 'react-router-dom';
 const SearchPage = () =>{
 
     return(
@@ -7,7 +8,9 @@ const SearchPage = () =>{
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
             <div class="SearchPageHeader">
                 <div class="signUp">
+                    <Link to={'/SignUpOrLogIn'}>
                 <button>ورود/ ثبت نام</button>
+                </Link>
                 </div>
             <div className='ddown'>
             <div class="dropdown">

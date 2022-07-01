@@ -1,12 +1,19 @@
 import './App.css';
 import SearchPage from './Component/SearchPage/SearchPage';
 import SignUpandLogin from './Component/signUpandLogin/signUpandLogin'
-function App() {
+import {BrowserRouter} from 'react-router-dom'
+import {Route, Routes} from 'react-router-dom'
+
+export default function App() {
   return (
     <div className="App">
-      <SignUpandLogin></SignUpandLogin>
+      <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<SearchPage/>}/>
+        <Route path='/SignUpOrLogIn' element={<SignUpandLogin/>}/>
+      </Routes>
+      </BrowserRouter>
     </div>
   );
 }
 
-export default App;
