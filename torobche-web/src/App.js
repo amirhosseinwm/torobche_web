@@ -1,6 +1,7 @@
 import './App.css';
 import SearchPage from './Component/SearchPage/SearchPage';
 import SignUpandLogin from './Component/signUpandLogin/signUpandLogin'
+import ShowProductPage from './Component/ShowProductPage/ShowProductPage'
 import {BrowserRouter} from 'react-router-dom'
 import {Route, Routes} from 'react-router-dom'
 
@@ -11,6 +12,7 @@ export default function App() {
       <Routes>
         <Route path='/' element={<SearchPage/>}/>
         <Route path='/SignUpOrLogIn' element={<SignUpandLogin/>}/>
+        <Route path='/ShowProducts' element={<ShowProductPage/>}/>
       </Routes>
       </BrowserRouter>
     </div>
