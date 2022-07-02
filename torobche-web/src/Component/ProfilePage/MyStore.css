@@ -1,0 +1,45 @@
+.MyStoreStyle{
+    padding-top: 120px;
+    height: 1000px;
+    background-color: #5A7DB3;
+}
+.AddStore{
+    height: 50px;
+}
+.AddStore:hover{
+    background-color: #2061c4;
+    cursor: pointer;
+}
+.Addbtn{
+    background-color: blue;
+}
+.titleAdd{
+    padding-top: 12px;
+    margin-left: -270px;
+}
+.MyStores{
+  width: 77%;
+  display: flex;
+  flex-direction: row-reverse !important;
+  margin-top: 10px;
+  flex-direction: row;
+  flex-wrap: wrap;   
+}
+.Store{
+    margin-top: 20px;
+    margin-right: 70px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    border-radius: 20px;
+    border: 1px solid blue;
+}
+.Store:hover{
+    background-color: #4a61b4;
+    cursor: pointer;
+    color: white;
+}
+
+.StoreTitle{
+    margin-top: 65px;
+}

@@ -188,8 +188,8 @@ input::-webkit-inner-spin-button {
 .showDetail{
   width: 76%;
   display: flex;
+  flex-direction: row-reverse !important;
   margin-top: 10px;
   flex-direction: row;
-  flex-wrap: wrap; 
-  
+  flex-wrap: wrap;   
 }

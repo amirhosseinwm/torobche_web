@@ -1,8 +1,15 @@
 import Header from '../Header/Header'
+import Favirote from './Favorite'
 import Card from '../Card/Card'
 import './ProfilePageStyle.css'
+import RegisterShopping from './RegisterShopping'
+import MyStore from './MyStore'
+import { useState } from 'react'
+import LastSeen from './LastSeen'
 
 const Profile = ()=>{
+    const [Page,SetPage] = useState('favorite')
+    const [shopperRegister,SetshopperRegister] = useState(true)
     return(
         <div className="showContainer">
             <div className='VerticalNavbar2'>
@@ -15,33 +22,29 @@ const Profile = ()=>{
                     <p></p>
                 </li>
                 <div class="line-1"></div>
+
+                <li>
+
+                    <button className='favirotP' onClick={()=>{SetPage('favorite')}}>محبوب های من</button>
+                    <button className='myshopping' onClick={()=>{SetPage('myshopping')}}>فروشگاه های من</button>
+                    <button className='lastseen' onClick={()=>{SetPage('lastSeen')}}>آخرین بازدید</button>
+                    <button className='editPrf'>ویرایش پروفایل</button>
+
+                    
+                </li>
+                <div class="line-1"></div>
                 <li>
                     <button className='logout'>خروج از حساب کاربری</button>
                 </li>
+
 
             </ul>
 
             </div>
             <Header/>
-
-            <div className='showProduct'>
-            <div className='ddown2'>
-            <div class="dropdown2">
-                <button class="dropbtn">محبوب من</button>
-            </div>
-            </div>
-            <div class="line-2"></div>
-            <div className='showDetail'>
-            <Card></Card>
-            <Card></Card>
-            <Card></Card>
-            <Card></Card>
-            <Card></Card>
-
-
-            </div>
-            </div>
-            
+            {Page == 'favorite' && <Favirote/>}
+            {Page == 'myshopping'&& shopperRegister && <RegisterShopping/>}
+            {Page == 'lastSeen' && <LastSeen/>}
 
         </div>
     )

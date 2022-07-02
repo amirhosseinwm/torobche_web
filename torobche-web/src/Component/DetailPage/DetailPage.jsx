@@ -4,11 +4,6 @@ import Seller from '../Seller/Seller'
 import { useState } from 'react'
 const DetailPage = props =>{
 
-    const [isInfo, setIsInfo] = useState(false);
-    const handleInfo = ()=>{
-        setIsInfo(true);
-    };
-
     return(
         <div>
             <Header/>

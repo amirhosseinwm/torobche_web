@@ -3,15 +3,18 @@ import TorobLogo2 from '../../assets/torobLogo2.png';
 
 import "./HeaderStyle.css"
 import { Link } from 'react-router-dom';
+import { useState } from 'react';
 const SearchPage = () =>{
-
+    const [logIn,setLogin] = useState(false);
+    var innn = 'ورود / ثبت نام'
+    var outt = 'امیرحسین ثابتی'
     return(
         <div class="container">
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
             <div class="SearchPageHeader">
                 <div class="signUp">
-                    <Link to={'/SignUpOrLogIn'}>
-                <button>ورود / ثبت نام</button>
+                    <Link to={logIn?'/SignUpOrLogIn':'/profile'}>
+                <button>{logIn ? innn:outt}</button>
                 </Link>
                 </div>
                 <div className='searchAndDdown'>
