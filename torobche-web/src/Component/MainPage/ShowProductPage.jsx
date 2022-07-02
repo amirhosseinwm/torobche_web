@@ -6,7 +6,6 @@ import Card from '../Card/Card';
 const ShowProductPage = () =>{
     return(
         <div className="showContainer">
-            <Header/>
             <div className='VerticalNavbar'>
             <ul>
                 <li>
@@ -32,6 +31,8 @@ const ShowProductPage = () =>{
             </ul>
 
             </div>
+            <Header/>
+
             <div className='showProduct'>
             <div className='ddown2'>
             <div class="dropdown2">

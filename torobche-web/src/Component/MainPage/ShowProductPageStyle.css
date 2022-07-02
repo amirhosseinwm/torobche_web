@@ -6,6 +6,7 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
+    margin-top: 100px;
     width: 25%;
     background-color: white;
     position: fixed;
@@ -131,6 +132,8 @@ input::-webkit-inner-spin-button {
 
 .showProduct{
   background-color: #F2F3F5;
+  padding-top: 100px;
+  height: 1000px;
 
 }
 

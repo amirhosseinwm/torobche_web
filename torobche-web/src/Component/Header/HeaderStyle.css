@@ -4,7 +4,10 @@
     display:inline-flex;
     height: 100px;
 }
-
+.container{
+    position: fixed;
+    width: 100%;
+}
 .searchConsept{
     display: inline-flex;
 }
@@ -23,6 +26,7 @@
 }
 
 .signUp button{
+    margin-top: 25px;
     margin-left: 60px;
     width: 100px;
     background: #F9FAFB;
@@ -33,6 +37,7 @@
     border: 1px solid #ccc;
 }
 .searchbar{
+    margin-top: 7px;
     margin-left: 75%;
     display: inline-flex;
 }

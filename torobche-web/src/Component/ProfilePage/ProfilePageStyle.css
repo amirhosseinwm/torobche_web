@@ -1,0 +1,14 @@
+.logout{
+    margin-top: 20px;
+    width: 170px; 
+    margin-left: 30px;
+    background-color: white;
+    color: #B74F52;
+    border: hidden;
+    border: 2px solid #B74F52;
+}
+.logout:hover{
+    background-color: #B74F52;
+    border: hidden;
+    color: white;
+}

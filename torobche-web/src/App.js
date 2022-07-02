@@ -3,6 +3,7 @@ import SearchPage from './Component/SearchPage/SearchPage';
 import SignUpandLogin from './Component/signUpandLogin/signUpandLogin'
 import ShowProductPage from './Component/MainPage/ShowProductPage'
 import DetailPage  from './Component/DetailPage/DetailPage';
+import Profile from './Component/ProfilePage/ProfilePage';
 import {BrowserRouter} from 'react-router-dom'
 import {Route, Routes} from 'react-router-dom'
 
