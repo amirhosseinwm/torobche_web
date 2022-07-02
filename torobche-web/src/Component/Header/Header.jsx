@@ -4,21 +4,21 @@ import "./HeaderStyle.css";
 import { Link } from "react-router-dom";
 const SearchPage = () => {
     return (
-        <div class="container">
+        <div className="container">
             <link
                 rel="stylesheet"
                 href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
             ></link>
-            <div class="SearchPageHeader">
-                <div class="signUp">
-                    <Link to={"/SignUpOrLogIn"}>
+            <div className="SearchPageHeader">
+                <div className="signUp">
+                    <Link to={"/signup-or-login"}>
                         <button>ورود / ثبت نام</button>
                     </Link>
                 </div>
                 <div className="searchAndDdown">
                     <div className="searchbar">
-                        <div class="searchConsept">
-                            <i class="fa fa-search icon"></i>
+                        <div className="searchConsept">
+                            <i className="fa fa-search icon"></i>
                             <input
                                 type="text"
                                 dir="rtl"
@@ -26,23 +26,23 @@ const SearchPage = () => {
                             />
                         </div>
                         <div>
-                            <Link to={"/"}>
+                            <Link to={"/search"}>
                                 <img src={TorobLogo2} />
                             </Link>
                         </div>
                     </div>
                     <div className="ddown">
-                        <div class="dropdown">
-                            <button class="dropbtn">لپ تاپ</button>
-                            <div class="dropdown-content">
+                        <div className="dropdown">
+                            <button className="dropbtn">لپ تاپ</button>
+                            <div className="dropdown-content">
                                 <a href="#">لب تاپ لنوو</a>
                                 <a href="#">لب تاپ ایسوس</a>
                                 <a href="#">لب تاپ اپل</a>
                             </div>
                         </div>
-                        <div class="dropdown">
-                            <button class="dropbtn">موبایل و تبلت</button>
-                            <div class="dropdown-content">
+                        <div className="dropdown">
+                            <button className="dropbtn">موبایل و تبلت</button>
+                            <div className="dropdown-content">
                                 <a className="maincategory" href="#">
                                     گوشی موبایل
                                 </a>

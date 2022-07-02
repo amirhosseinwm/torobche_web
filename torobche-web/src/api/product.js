@@ -44,8 +44,8 @@ export const getCategoryApi = async () => {
     const url = `${baseUrl}/product/categories/v0/`;
     const response = await axios.get(url, {
         headers: {
-            Authorization: `Token ${token}`,
+            Authorization: `Token 33fe6dbce07073a19abad454733798039986bd3c`,
         },
     });
-    return response.data;
+    return response;
 };

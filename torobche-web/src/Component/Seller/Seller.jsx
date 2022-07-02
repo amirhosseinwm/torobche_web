@@ -5,10 +5,10 @@ const Seller = props =>{
     return(
         <div className='sellerContainer'>            
         <div className='selleritem'>
-             <div class="dropdown">
-                <button class="reportbtn">گزارش
+             <div className="dropdown">
+                <button className="reportbtn">گزارش
                  </button>
-                 <div class="dropdown-content">
+                 <div className="dropdown-content">
                     <a href="#">.این کالا مربوط به این صفحه نیست</a>
                     <a href="#">.قیمت یا موجودی صحیح نیست</a>
                     <a href="#">.می‌خواهم سفارشم را از این فروشگاه پیگیری کنم</a>

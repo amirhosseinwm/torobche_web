@@ -4,7 +4,7 @@ const Card = props => {
     return(
         <div className="item">
             <div className='title' >
-            <Link to={'/ShowProducts/detail'}>
+            <Link to={'/products/detail'}>
             <a>گوشی</a>
             </Link>
             </div>

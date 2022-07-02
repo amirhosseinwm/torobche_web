@@ -19,11 +19,11 @@ const ShowProductPage = () =>{
                     </div>
                     <button className='PriceButton'>اعمال فیلتر قیمت</button>
                 </li>
-                <div class="line-1"></div>
+                <div className="line-1"></div>
                 <li>
                     <a href="">جستجو در نتایج</a>
-                    <div class='searchConsept1'>
-                    <i class="fa fa-search icon"></i>
+                    <div className='searchConsept1'>
+                    <i className="fa fa-search icon"></i>
                     <input type="text" dir='rtl'/>
                 </div>
                 
@@ -34,10 +34,10 @@ const ShowProductPage = () =>{
             </div>
             <div className='showProduct'>
             <div className='ddown2'>
-            <div class="dropdown2">
-                <button class="dropbtn2">محبوب ترین
+            <div className="dropdown2">
+                <button className="dropbtn2">محبوب ترین
                  </button>
-                 <div class="dropdown-content2">
+                 <div className="dropdown-content2">
                     <a href="#">محبوب ترین</a>
                     <a href="#">جدیدترین</a>
                     <a href="#">ارزان ترین</a>
@@ -45,7 +45,7 @@ const ShowProductPage = () =>{
                 </div>
             </div>
             </div>
-            <div class="line-2"></div>
+            <div className="line-2"></div>
             <div className='showDetail'>
             <Card></Card>
             <Card></Card>

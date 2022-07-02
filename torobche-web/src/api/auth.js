@@ -4,22 +4,20 @@ import axios from "axios";
 export const signUpApi = async (username, email, password) => {
     const url = `${baseUrl}/user/signup/v0/`;
     const response = await axios.post(url, {
-        username,
-        email,
-        password,
+        username: username,
+        email: email,
+        password: password,
     });
-    localStorage.setItem("token", response.data.token);
-    return response.data;
+    return response;
 };
 
 export const logInApi = async (username, password) => {
     const url = `${baseUrl}/user/login/v0/`;
     const response = await axios.post(url, {
-        username,
-        password,
+        username: username,
+        password: password,
     });
-    localStorage.setItem("token", response.data.token);
-    return response.data;
+    return response;
 };
 
 export const logOutApi = async () => {
@@ -30,5 +28,5 @@ export const logOutApi = async () => {
             Authorization: `Token ${token}`,
         },
     });
-    return response.data;
+    return response;
 };
