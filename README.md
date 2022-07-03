@@ -8,3 +8,9 @@
 <img width="1435" alt="Screen Shot 1401-04-12 at 13 20 52" src="https://user-images.githubusercontent.com/67318862/177032452-80269e4f-f812-4570-b8fb-d154df924206.png">
 <img width="1435" alt="Screen Shot 1401-04-12 at 13 23 21" src="https://user-images.githubusercontent.com/67318862/177032535-7e04cf20-8cfd-45c4-91d5-9446258f429a.png">
 <img width="1435" alt="Screen Shot 1401-04-12 at 14 24 43" src="https://user-images.githubusercontent.com/67318862/177034681-4cc91e3d-c3f9-4b9b-ab0c-dc5a20709b4b.png">
+
+<img width="1435" alt="Screen Shot 1401-04-12 at 14 32 52" src="https://user-images.githubusercontent.com/67318862/177034879-c7cc5b4c-24c8-47c5-84d1-ba5c66375876.png">
+
+<img width="1435" alt="Screen Shot 1401-04-12 at 14 35 31" src="https://user-images.githubusercontent.com/67318862/177034897-c0d261ca-e4d2-47b8-a636-29be1cbc426d.png">
+<img width="1435" alt="Screen Shot 1401-04-12 at 14 36 09" src="https://user-images.githubusercontent.com/67318862/177034921-2302b262-c24b-4807-8ecc-0bc611cfe56f.png">
+
